@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/baseline_home_24"
+        android:id="@+id/bottamMenuHomeHome"
+        android:title="Home"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:icon="@drawable/baseline_grid_view_24"
+        android:id="@+id/bottamMenuHomeCategories"
+        app:showAsAction="always"
+        android:title="Categories"
+        />
+
+    <item
+        android:icon="@drawable/baseline_shopping_cart_24"
+        android:id="@+id/bottamMenuHomeCard"
+        android:title="My Cart"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:icon="@drawable/order"
+        android:id="@+id/bottamMenuHomeorder"
+        android:title="Order"
+        app:showAsAction="always"
+        />
+    <item
+        android:icon="@drawable/person_icon"
+        android:id="@+id/bottamMenuHomeServices"
+        android:title="Profile"
+        app:showAsAction="always"
+        />
+
+</menu>
