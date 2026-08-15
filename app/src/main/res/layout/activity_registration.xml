@@ -240,7 +240,7 @@
                     />
 
                 <CheckBox
-                    android:id="@+id/checkTerms"
+                    android:id="@+id/cbcheckTerms"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="I agree to Terms &amp; Conditions&#10;and Privacy Policy"
