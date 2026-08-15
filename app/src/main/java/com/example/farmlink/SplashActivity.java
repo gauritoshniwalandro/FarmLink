@@ -23,6 +23,9 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
+        ivSplashLogo = findViewById(R.id.ivSplashLogo);
+        tvSplashSlogan = findViewById(R.id.tvSplashSlogan);
+
         new Handler(Looper.getMainLooper()).postDelayed(() -> {
             Intent intent = new Intent(SplashActivity.this, role_selection_Activity.class);
             startActivity(intent);
