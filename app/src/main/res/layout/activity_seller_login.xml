@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
+    android:id="@+id/main"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -7,9 +8,7 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:background="@color/white"
-    android:layout_gravity="center"
     android:padding="10dp"
-    android:layout_marginTop="10dp"
     tools:context=".SellerLogin" >
 
     <TextView
@@ -95,7 +94,7 @@
                     android:id="@+id/loginPasswordVisibility"
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
-                    android:src="@drawable/visibility_icon"
+                    android:src="@android:drawable/ic_menu_view"
                     android:clickable="true"
                     android:focusable="true"/>
 
@@ -159,7 +158,7 @@
         android:layout_width="70dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:src=""/>
+        android:src="@android:drawable/ic_menu_info_details"/>
 
     <TextView
         android:layout_width="match_parent"
