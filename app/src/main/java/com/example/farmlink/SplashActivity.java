@@ -3,6 +3,7 @@ package com.example.farmlink;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -25,8 +26,8 @@ public class SplashActivity extends AppCompatActivity {
         ivSplashLogo = findViewById(R.id.ivSplashLogo);
         tvSplashSlogan = findViewById(R.id.tvSplashSlogan);
 
-        new Handler().postDelayed(() -> {
-            Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
+        new Handler(Looper.getMainLooper()).postDelayed(() -> {
+            Intent intent = new Intent(SplashActivity.this, role_selection_Activity.class);
             startActivity(intent);
             finish();
         }, 3000);
